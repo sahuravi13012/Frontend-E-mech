@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+li {
+  margin-top: 20px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  /* background:	#FFCC99 */
+  background-image: url("https://i0.wp.com/segwitz.com/wp-content/uploads/2021/09/why-ecommerce-need-mobile-apps.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: center;
+  height: fit-content;
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-div-login-page {
+  animation: moveUpDown 5s infinite; /* Apply the animation to the div */
+}
